@@ -1,25 +1,66 @@
-[00:00:00] [User Authenticator #28/INFO]: UUID of player davesterjones is 5275576d-9af6-4c43-bed7-dabdc12f8e74
-[00:00:00] [Server thread/INFO]: davesterjones[/73.14.101.222:64423] logged in with entity id 74962 at (-468.0113554992488, 128.0, 333.5600747007601)
-[00:00:00] [Server thread/INFO]: davesterjones joined the game
-[00:00:10] [Server thread/INFO]: davesterjones lost connection: Disconnected
-[00:00:10] [Server thread/INFO]: davesterjones left the game
-[00:00:22] [Server thread/INFO]: kachigguh lost connection: Disconnected
-[00:00:22] [Server thread/INFO]: kachigguh left the game
-[00:00:24] [User Authenticator #29/INFO]: UUID of player TotalBcan is 6e6fcde7-073a-4578-838a-7ff2373f9623
-[00:00:24] [Server thread/INFO]: TotalBcan[/23.125.121.141:54924] logged in with entity id 75066 at (49.899892098566234, 70.0, -573.6278181744913)
-[00:00:24] [Server thread/INFO]: TotalBcan joined the game
-[00:00:30] [Server thread/INFO]: MrAzn lost connection: Disconnected
-[00:00:30] [Server thread/INFO]: MrAzn left the game
-[00:00:35] [Server thread/INFO]: Stopping the server
-[00:00:35] [Server thread/INFO]: Stopping server
-[00:00:35] [Server thread/INFO]: Saving players
-[00:00:35] [Server thread/INFO]: Saving worlds
-[00:00:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:00:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:00:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[00:00:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:00:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[00:00:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:00:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:00:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:00:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:17:21] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:17:22] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:17:22] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:17:22] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:17:22] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:17:22] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:17:22] [main/INFO]: Reloading ResourceManager: Default
+[00:17:22] [Worker-Main-12/INFO]: Loaded 7 recipes
+[00:17:23] [Worker-Main-12/INFO]: Loaded 1137 advancements
+[00:17:24] [Server thread/INFO]: Starting minecraft server version 1.17
+[00:17:24] [Server thread/INFO]: Loading properties
+[00:17:24] [Server thread/INFO]: Default game type: SURVIVAL
+[00:17:24] [Server thread/INFO]: Generating keypair
+[00:17:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:17:24] [Server thread/INFO]: Using default channel type
+[00:17:24] [Server thread/INFO]: Preparing level "world"
+[00:17:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:17:25] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[00:17:25] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[00:17:25] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[00:17:29] [Worker-Main-9/INFO]: Preparing spawn area: 4%
+[00:17:29] [Worker-Main-14/INFO]: Preparing spawn area: 4%
+[00:17:29] [Worker-Main-9/INFO]: Preparing spawn area: 4%
+[00:17:29] [Worker-Main-14/INFO]: Preparing spawn area: 4%
+[00:17:29] [Worker-Main-8/INFO]: Preparing spawn area: 4%
+[00:17:29] [Worker-Main-11/INFO]: Preparing spawn area: 4%
+[00:17:29] [Worker-Main-8/INFO]: Preparing spawn area: 4%
+[00:17:29] [Worker-Main-8/INFO]: Preparing spawn area: 10%
+[00:17:30] [Worker-Main-12/INFO]: Preparing spawn area: 62%
+[00:17:30] [Server thread/INFO]: Time elapsed: 6004 ms
+[00:17:30] [Server thread/INFO]: Done (6.093s)! For help, type "help"
+[00:19:58] [User Authenticator #1/INFO]: UUID of player MrAzn is 2f955fb6-7475-413b-8849-305d42e5f115
+[00:19:58] [Server thread/INFO]: MrAzn[/99.27.84.13:60498] logged in with entity id 121 at (-454.5, 78.5625, 361.5)
+[00:19:58] [Server thread/INFO]: MrAzn joined the game
+[00:20:09] [Server thread/INFO]: MrAzn lost connection: Disconnected
+[00:20:09] [Server thread/INFO]: MrAzn left the game
+[00:20:12] [User Authenticator #2/INFO]: UUID of player MrAzn is 2f955fb6-7475-413b-8849-305d42e5f115
+[00:20:12] [Server thread/INFO]: MrAzn[/99.27.84.13:60500] logged in with entity id 475 at (-454.5, 78.5625, 361.5)
+[00:20:12] [Server thread/INFO]: MrAzn joined the game
+[00:20:31] [Server thread/INFO]: MrAzn lost connection: Disconnected
+[00:20:31] [Server thread/INFO]: MrAzn left the game
+[00:20:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18601ms or 372 ticks behind
+[00:20:31] [Server thread/WARN]: handleDisconnection() called twice
+[00:20:31] [Server thread/INFO]: com.mojang.authlib.GameProfile@38454f63[id=<null>,name=TotalBcan,properties={},legacy=false] (/192.168.1.254:25565) lost connection: Disconnected
+[00:20:35] [User Authenticator #3/INFO]: UUID of player MrAzn is 2f955fb6-7475-413b-8849-305d42e5f115
+[00:20:35] [Server thread/INFO]: MrAzn[/99.27.84.13:60505] logged in with entity id 503 at (-454.5, 78.5625, 361.5)
+[00:20:35] [Server thread/INFO]: MrAzn joined the game
+[00:20:59] [User Authenticator #4/INFO]: UUID of player TotalBcan is 6e6fcde7-073a-4578-838a-7ff2373f9623
+[00:21:00] [Server thread/INFO]: TotalBcan[/192.168.1.91:50221] logged in with entity id 896 at (48.459874585924055, 69.0, -582.0670156821062)
+[00:21:00] [Server thread/INFO]: TotalBcan joined the game
+[00:21:04] [Server thread/INFO]: MrAzn lost connection: Disconnected
+[00:21:04] [Server thread/INFO]: MrAzn left the game
+[00:21:06] [Server thread/INFO]: TotalBcan lost connection: Disconnected
+[00:21:06] [Server thread/INFO]: TotalBcan left the game
+[00:21:26] [User Authenticator #5/INFO]: UUID of player TotalBcan is 6e6fcde7-073a-4578-838a-7ff2373f9623
+[00:21:26] [Server thread/INFO]: TotalBcan[/192.168.1.91:50230] logged in with entity id 1206 at (50.69999998807907, 69.0, -582.5201114878791)
+[00:21:26] [Server thread/INFO]: TotalBcan joined the game
+[00:21:41] [Server thread/INFO]: TotalBcan lost connection: Disconnected
+[00:21:41] [Server thread/INFO]: TotalBcan left the game
+[00:21:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14350ms or 287 ticks behind
+[00:21:41] [Server thread/WARN]: handleDisconnection() called twice
+[00:21:42] [User Authenticator #6/INFO]: UUID of player TotalBcan is 6e6fcde7-073a-4578-838a-7ff2373f9623
+[00:21:42] [Server thread/INFO]: TotalBcan[/192.168.1.91:50240] logged in with entity id 1249 at (50.69999998807907, 69.0, -582.5201114878791)
+[00:21:42] [Server thread/INFO]: TotalBcan joined the game
+[00:22:57] [Server thread/INFO]: TotalBcan lost connection: Disconnected
+[00:22:57] [Server thread/INFO]: TotalBcan left the game
