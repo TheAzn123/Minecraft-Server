@@ -1,57 +1,114 @@
-[00:24:16] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[00:24:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:24:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:24:17] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[00:24:17] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[00:24:17] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:24:17] [main/INFO]: Reloading ResourceManager: Default
-[00:24:18] [Worker-Main-13/INFO]: Loaded 7 recipes
-[00:24:18] [Worker-Main-13/INFO]: Loaded 1137 advancements
-[00:24:19] [Server thread/INFO]: Starting minecraft server version 1.17
-[00:24:19] [Server thread/INFO]: Loading properties
-[00:24:19] [Server thread/INFO]: Default game type: SURVIVAL
-[00:24:19] [Server thread/INFO]: Generating keypair
-[00:24:19] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:24:19] [Server thread/INFO]: Using default channel type
-[00:24:20] [Server thread/INFO]: Preparing level "world"
-[00:24:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:24:20] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[00:24:20] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[00:24:21] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[00:24:21] [Worker-Main-14/INFO]: Preparing spawn area: 3%
-[00:24:22] [Worker-Main-12/INFO]: Preparing spawn area: 8%
-[00:24:25] [Worker-Main-14/INFO]: Preparing spawn area: 14%
-[00:24:25] [Worker-Main-14/INFO]: Preparing spawn area: 14%
-[00:24:25] [Worker-Main-14/INFO]: Preparing spawn area: 14%
-[00:24:25] [Worker-Main-12/INFO]: Preparing spawn area: 14%
-[00:24:25] [Worker-Main-11/INFO]: Preparing spawn area: 14%
-[00:24:25] [Worker-Main-11/INFO]: Preparing spawn area: 14%
-[00:24:25] [Worker-Main-10/INFO]: Preparing spawn area: 38%
-[00:24:26] [Server thread/INFO]: Time elapsed: 5989 ms
-[00:24:26] [Server thread/INFO]: Done (6.070s)! For help, type "help"
-[00:24:31] [User Authenticator #1/INFO]: UUID of player TotalBcan is 6e6fcde7-073a-4578-838a-7ff2373f9623
-[00:24:31] [Server thread/INFO]: TotalBcan[/192.168.1.91:56391] logged in with entity id 123 at (49.86897240969877, 70.0, -576.9923178407012)
-[00:24:31] [Server thread/INFO]: TotalBcan joined the game
-[00:24:51] [User Authenticator #2/INFO]: UUID of player Boat_Horse is 589a48e7-ffe5-44eb-aee8-ab4130cf83d6
-[00:24:51] [Server thread/INFO]: Boat_Horse[/76.93.139.74:56253] logged in with entity id 387 at (-103.5, 64.0, 0.5)
-[00:24:51] [Server thread/INFO]: Boat_Horse joined the game
-[00:29:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2078ms or 41 ticks behind
-[00:30:35] [Server thread/INFO]: Boat_Horse has made the advancement [Monster Hunter]
-[00:32:25] [Server thread/INFO]: TotalBcan has made the advancement [Sweet Dreams]
-[00:33:42] [Server thread/INFO]: Boat_Horse lost connection: Disconnected
-[00:33:42] [Server thread/INFO]: Boat_Horse left the game
-[00:33:55] [User Authenticator #3/INFO]: UUID of player Boat_Horse is 589a48e7-ffe5-44eb-aee8-ab4130cf83d6
-[00:33:55] [Server thread/INFO]: Boat_Horse[/76.93.139.74:56307] logged in with entity id 3748 at (-133.69999998807907, 60.0, -82.78003847313495)
-[00:33:55] [Server thread/INFO]: Boat_Horse joined the game
-[00:34:01] [Server thread/INFO]: TotalBcan lost connection: Disconnected
-[00:34:01] [Server thread/INFO]: TotalBcan left the game
-[00:38:01] [Server thread/INFO]: Boat_Horse has made the advancement [Stone Age]
-[00:42:50] [Server thread/INFO]: Boat_Horse has made the advancement [Getting an Upgrade]
-[00:48:16] [User Authenticator #4/INFO]: UUID of player davesterjones is 5275576d-9af6-4c43-bed7-dabdc12f8e74
-[00:48:16] [Server thread/INFO]: davesterjones[/73.14.101.222:57380] logged in with entity id 5618 at (-469.2773416814224, 128.0, 334.37651000335416)
-[00:48:16] [Server thread/INFO]: davesterjones joined the game
-[00:49:37] [Server thread/INFO]: <davesterjones> -475 334
-[00:52:42] [Server thread/INFO]: Boat_Horse has made the advancement [Sweet Dreams]
-[00:54:40] [Server thread/INFO]: Boat_Horse has made the advancement [Acquire Hardware]
-[00:55:14] [Server thread/INFO]: Boat_Horse has made the advancement [Suit Up]
-[01:00:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2413ms or 48 ticks behind
+[22:29:50] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:29:50] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22:29:50] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22:29:50] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22:29:50] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22:29:50] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22:29:51] [main/INFO]: Reloading ResourceManager: Default
+[22:29:51] [Worker-Main-10/INFO]: Loaded 7 recipes
+[22:29:51] [Worker-Main-10/INFO]: Loaded 1137 advancements
+[22:29:52] [Server thread/INFO]: Starting minecraft server version 1.17
+[22:29:52] [Server thread/INFO]: Loading properties
+[22:29:52] [Server thread/INFO]: Default game type: SURVIVAL
+[22:29:52] [Server thread/INFO]: Generating keypair
+[22:29:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:29:52] [Server thread/INFO]: Using default channel type
+[22:29:52] [Server thread/INFO]: Preparing level "world"
+[22:29:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:29:52] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[22:29:53] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[22:29:53] [Worker-Main-14/INFO]: Preparing spawn area: 4%
+[22:29:56] [Worker-Main-9/INFO]: Preparing spawn area: 13%
+[22:29:56] [Worker-Main-11/INFO]: Preparing spawn area: 13%
+[22:29:56] [Worker-Main-9/INFO]: Preparing spawn area: 13%
+[22:29:56] [Worker-Main-9/INFO]: Preparing spawn area: 13%
+[22:29:56] [Worker-Main-8/INFO]: Preparing spawn area: 54%
+[22:29:56] [Server thread/INFO]: Time elapsed: 3700 ms
+[22:29:56] [Server thread/INFO]: Done (3.778s)! For help, type "help"
+[22:30:47] [User Authenticator #1/INFO]: UUID of player davesterjones is 5275576d-9af6-4c43-bed7-dabdc12f8e74
+[22:30:47] [Server thread/INFO]: davesterjones[/73.14.101.222:61713] logged in with entity id 131 at (-510.5161036669462, 60.0, 94.08607829152976)
+[22:30:47] [Server thread/INFO]: davesterjones joined the game
+[22:33:59] [User Authenticator #2/INFO]: UUID of player kachigguh is 446ff6d9-7904-43f6-a04b-d43736188c4a
+[22:33:59] [Server thread/INFO]: kachigguh[/98.176.78.130:49869] logged in with entity id 1003 at (-468.5, 85.0, 487.5)
+[22:33:59] [Server thread/INFO]: kachigguh joined the game
+[22:34:11] [User Authenticator #3/INFO]: UUID of player MattMoney9 is 56443cf6-db86-41e7-911e-627f7f1e4387
+[22:34:12] [Server thread/INFO]: MattMoney9[/72.197.21.144:50176] logged in with entity id 1253 at (-394.56315036756433, 70.0, 525.7064174921152)
+[22:34:12] [Server thread/INFO]: MattMoney9 joined the game
+[22:34:12] [Server thread/WARN]: UUID of added entity already exists: bhn['Enderman'/1276, l='ServerLevel[world]', x=-270.01, y=79.00, z=561.40]
+[22:37:16] [Server thread/INFO]: <kachigguh> zz
+[22:37:35] [Server thread/INFO]: <MattMoney9> zz
+[22:38:59] [Server thread/WARN]: UUID of added entity already exists: ber['Sheep'/2525, l='ServerLevel[world]', x=-375.81, y=80.00, z=723.19]
+[22:42:29] [User Authenticator #4/INFO]: UUID of player K3KI5H is 44ae691e-b90a-474a-9770-c0ae5486ff57
+[22:42:29] [Server thread/INFO]: K3KI5H[/99.169.169.202:60931] logged in with entity id 3971 at (-291.5, 94.0, 501.5)
+[22:42:29] [Server thread/INFO]: K3KI5H joined the game
+[22:42:47] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[22:42:47] [Server thread/INFO]: <--[HERE]
+[22:42:58] [Server thread/INFO]: <kachigguh> sup bitch
+[22:43:05] [Server thread/INFO]: <K3KI5H> Hola
+[22:43:08] [Server thread/INFO]: <kachigguh> racist
+[22:43:14] [Server thread/INFO]: <K3KI5H> Bruh how
+[22:43:38] [Server thread/INFO]: kachigguh lost connection: Disconnected
+[22:43:38] [Server thread/INFO]: kachigguh left the game
+[22:43:42] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[22:43:42] [Server thread/INFO]: <--[HERE]
+[22:43:43] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[22:43:43] [Server thread/INFO]: <--[HERE]
+[22:43:43] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[22:43:43] [Server thread/INFO]: <--[HERE]
+[22:43:43] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[22:43:43] [Server thread/INFO]: <--[HERE]
+[22:43:43] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[22:43:43] [Server thread/INFO]: <--[HERE]
+[22:43:43] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[22:43:43] [Server thread/INFO]: <--[HERE]
+[22:43:43] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[22:43:43] [Server thread/INFO]: <--[HERE]
+[22:43:44] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[22:43:44] [Server thread/INFO]: <--[HERE]
+[22:43:44] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[22:43:44] [Server thread/INFO]: <--[HERE]
+[22:43:44] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[22:43:44] [Server thread/INFO]: <--[HERE]
+[22:43:44] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[22:43:45] [Server thread/INFO]: <--[HERE]
+[22:49:28] [Server thread/INFO]: <K3KI5H> We not sleeping?
+[22:49:34] [Server thread/INFO]: davesterjones lost connection: Disconnected
+[22:49:34] [Server thread/INFO]: davesterjones left the game
+[22:49:49] [User Authenticator #5/INFO]: UUID of player davesterjones is 5275576d-9af6-4c43-bed7-dabdc12f8e74
+[22:49:49] [Server thread/INFO]: davesterjones[/73.14.101.222:55139] logged in with entity id 6810 at (-434.05866440019537, 78.0, 192.30640583918108)
+[22:49:49] [Server thread/INFO]: davesterjones joined the game
+[22:49:59] [Server thread/INFO]: davesterjones lost connection: Disconnected
+[22:49:59] [Server thread/INFO]: davesterjones left the game
+[22:50:37] [Server thread/INFO]: Villager bjq['Villager'/994, l='ServerLevel[world]', x=-458.68, y=75.00, z=513.30] died, message: 'Villager was slain by Zombie'
+[22:50:44] [Server thread/INFO]: Villager bjq['Mason'/1027, l='ServerLevel[world]', x=-458.51, y=75.00, z=513.30] died, message: 'Mason was slain by Zombie'
+[22:51:51] [User Authenticator #6/INFO]: UUID of player davesterjones is 5275576d-9af6-4c43-bed7-dabdc12f8e74
+[22:51:51] [Server thread/INFO]: davesterjones[/73.14.101.222:52727] logged in with entity id 7371 at (-435.9489706664394, 78.0, 195.57248617716274)
+[22:51:51] [Server thread/INFO]: davesterjones joined the game
+[22:52:05] [Server thread/INFO]: <MattMoney9> zzzz
+[22:52:07] [Server thread/INFO]: <K3KI5H> Idk where Matt is
+[22:52:11] [Server thread/INFO]: <K3KI5H> tOh
+[22:52:47] [Server thread/INFO]: <MattMoney9> kish sleep
+[22:52:50] [Server thread/INFO]: <K3KI5H> I am
+[22:52:54] [Server thread/INFO]: davesterjones lost connection: Disconnected
+[22:52:54] [Server thread/INFO]: davesterjones left the game
+[22:53:31] [User Authenticator #7/INFO]: UUID of player davesterjones is 5275576d-9af6-4c43-bed7-dabdc12f8e74
+[22:53:31] [Server thread/INFO]: davesterjones[/73.14.101.222:56807] logged in with entity id 8042 at (-516.861633652363, 115.0, 311.9449830496465)
+[22:53:31] [Server thread/INFO]: davesterjones joined the game
+[22:56:09] [Server thread/INFO]: There are 3 of a max of 20 players online: MattMoney9, K3KI5H, davesterjones
+[22:59:41] [Server thread/INFO]: davesterjones lost connection: Disconnected
+[22:59:41] [Server thread/INFO]: davesterjones left the game
+[22:59:45] [Server thread/INFO]: Stopping the server
+[22:59:45] [Server thread/INFO]: Stopping server
+[22:59:45] [Server thread/INFO]: Saving players
+[22:59:45] [Server thread/INFO]: MattMoney9 lost connection: Disconnected
+[22:59:45] [Server thread/INFO]: MattMoney9 left the game
+[22:59:45] [Server thread/INFO]: Saving worlds
+[22:59:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:59:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:59:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:59:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:59:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:59:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:59:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:59:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:59:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
